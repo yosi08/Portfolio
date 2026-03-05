@@ -32,16 +32,18 @@ const Projects = () => {
     <section id="projects" className="py-20 bg-slate-50">
       <div className="max-w-5xl mx-auto px-6">
         <h2 className="text-3xl font-bold text-slate-900 mb-12 text-center">
-          <span className="text-indigo-600">프로</span>젝트
+          프로<span className="text-indigo-600">젝트</span>
         </h2>
-        <div className="grid md:grid-cols-2 gap-6">
+        <div className="grid md:grid-cols-2 gap-6 items-start">
           {projects.map((project) => {
             const isOpen = openId === project.id
             return (
               <div
                 key={project.id}
-                className={`bg-white rounded-xl border transition-all duration-300 ${
-                  isOpen ? 'border-indigo-300 shadow-lg' : 'border-slate-200 hover:border-indigo-200 hover:shadow-md'
+                className={`relative bg-white border transition-colors duration-300 ${
+                  isOpen
+                    ? 'rounded-t-xl rounded-b-none border-indigo-300 border-b-0 shadow-lg z-10'
+                    : 'rounded-xl border-slate-200 hover:border-indigo-200 hover:shadow-md z-0'
                 }`}
               >
                 {/* 카드 헤더 - 클릭 영역 */}
@@ -75,11 +77,9 @@ const Projects = () => {
                   ))}
                 </div>
 
-                {/* 확장 영역 */}
-                <div
-                  className={`overflow-hidden transition-all duration-300 ${isOpen ? 'max-h-96' : 'max-h-0'}`}
-                >
-                  <div className="px-6 pb-6 border-t border-slate-100 pt-4">
+                {/* 확장 영역 - absolute로 아래 카드 위에 겹침 */}
+                {isOpen && (
+                  <div className="absolute -left-px -right-px top-full z-10 bg-white border border-indigo-300 border-t-0 rounded-b-xl shadow-lg px-6 pb-6 pt-4">
                     <p className="text-slate-600 text-sm leading-relaxed mb-4">
                       {project.details.longDescription}
                     </p>
@@ -118,7 +118,7 @@ const Projects = () => {
                       )}
                     </div>
                   </div>
-                </div>
+                )}
               </div>
             )
           })}

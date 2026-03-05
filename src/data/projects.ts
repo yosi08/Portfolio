@@ -1,4 +1,4 @@
-// ✏️ 프로젝트 정보를 여기서 수정하세요
+// 프로젝트 정보를 여기서 수정
 // title: 프로젝트 이름
 // description: 카드에 표시되는 짧은 설명
 // details.longDescription: 카드 클릭 시 펼쳐지는 상세 설명
@@ -11,10 +11,10 @@ export const projects = [
   {
     id: 1,
     title: 'Music Project',
-    description: '부산 소프트웨어 마이스터고등학교 입학 후 처음으로 개발한 웹 프로젝트입니다.',
+    description: '부산 소프트웨어 마이스터고등학교 입학 후 처음으로 자체 개발한 웹 프로젝트입니다.',
     details: {
       longDescription:
-        '입학 후 처음으로 진행한 개인 웹 프로젝트로, React와 외부 음악 API를 활용해 음악 정보를 탐색할 수 있는 서비스입니다.',
+        '입학 후 처음으로 진행한 개인 웹 프로젝트로, React를 처음 활용하여 만든 프로젝트 입니다.',
       features: [
         '음악 검색 및 정보 조회',
         'React 기반 SPA 구현',
@@ -28,33 +28,34 @@ export const projects = [
   {
     id: 2,
     title: 'Pokémon',
-    description: '포켓몬 도감을 검색하고 상세 정보를 확인할 수 있는 웹 애플리케이션입니다.',
+    description: '웹에 등록되어 있는 포켓몬들을 가지고 야생 포켓몬들과 배틀을 할 수 있는 웹 애플리케이션입니다.',
     details: {
       longDescription:
-        'PokeAPI를 활용하여 포켓몬 정보를 검색하고 도감 형태로 확인할 수 있는 웹 애플리케이션입니다.',
+        'WASD로 캐릭터를 움직여 덤불 속 야생 포켓몬과 배틀이 가능한 웹 애플리케이션입니다.',
       features: [
-        '포켓몬 이름/번호 검색',
-        '상세 스탯 및 타입 정보 표시',
-        'React 컴포넌트 기반 UI 구성',
+        '스타팅 포켓몬 선택',
+        '타입 및 스킬 정보 제공',
+        'WASD로 캐릭터 이동 및 배틀 시스템 구현',
       ],
     },
-    techStack: ['React', 'JavaScript', 'CSS'],
+    techStack: ['HTML', 'JavaScript', 'CSS'],
     githubUrl: 'https://github.com/yosi08/pokemon',
   },
   {
     id: 3,
     title: 'Lilim',
-    description: '사용자 친화적인 인터페이스로 구성된 웹 애플리케이션입니다.',
+    description: '사용자 친화적인 인터페이스로 구성된 AI 날씨 서비스 웹 애플리케이션입니다.',
     details: {
       longDescription:
-        '순수 JavaScript와 CSS를 활용하여 구현한 웹 애플리케이션으로, Vercel에 배포되어 있습니다.',
+        'AI를 활용한 날씨 예측 서비스를 제공하는 웹 애플리케이션입니다.',
       features: [
         '바닐라 JavaScript로 구현',
         '반응형 레이아웃',
-        'Vercel을 통한 배포',
+        'AI 기반 날씨 예측 기능',
+        '사용자 위치 기반 날씨 정보 제공',
       ],
     },
-    techStack: ['JavaScript', 'CSS', 'HTML'],
+    techStack: ['JavaScript', 'CSS', 'React'],
     githubUrl: 'https://github.com/yosi08/Lilim',
     liveUrl: 'https://lilim-snowy.vercel.app',
   },
@@ -70,9 +71,12 @@ export const projects = [
         'TypeScript로 타입 안전성 확보',
         'Next.js 기반 라우팅',
         'Tailwind CSS 스타일링',
+        'Pomodoro기법을 활용한 타이머 기능',
+        '코넬 노트 템플릿 제공',
       ],
     },
     techStack: ['React', 'TypeScript', 'Next.js', 'Tailwind CSS'],
     githubUrl: 'https://github.com/yosi08/A_presonal_project/tree/main/study-sphere',
+    liveUrl: 'https://study-sphere-ten-ruby.vercel.app/',
   },
 ]

@@ -15,7 +15,7 @@ const Header = () => {
       <div className="max-w-5xl mx-auto px-6 h-16 flex items-center justify-between">
         <a
           href="#hero"
-          className="text-lg font-bold text-slate-900 hover:text-indigo-600 transition-colors"
+          className="text-xl font-bold text-slate-900 hover:text-indigo-600 transition-colors"
         >
           권기범
         </a>
@@ -26,7 +26,7 @@ const Header = () => {
             <a
               key={link.href}
               href={link.href}
-              className="text-sm font-medium text-slate-600 hover:text-indigo-600 transition-colors"
+              className="text-base font-medium text-slate-600 hover:text-indigo-600 transition-colors"
             >
               {link.label}
             </a>
@@ -52,7 +52,7 @@ const Header = () => {
             <a
               key={link.href}
               href={link.href}
-              className="text-sm font-medium text-slate-600 hover:text-indigo-600 transition-colors"
+              className="text-base font-medium text-slate-600 hover:text-indigo-600 transition-colors"
               onClick={() => setMenuOpen(false)}
             >
               {link.label}
