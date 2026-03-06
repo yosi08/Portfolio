@@ -84,10 +84,10 @@ const Projects = () => {
                       {project.details.longDescription}
                     </p>
                     <ul className="space-y-1.5 mb-5">
-                      {project.details.features.map((feature) => (
-                        <li key={feature} className="flex items-start gap-2 text-sm text-slate-500">
+                      {project.details.record.map((record) => (
+                        <li key={record} className="flex items-start gap-2 text-sm text-slate-500">
                           <span className="text-indigo-400 mt-0.5 shrink-0">▸</span>
-                          {feature}
+                          {record}
                         </li>
                       ))}
                     </ul>
