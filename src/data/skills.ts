@@ -2,8 +2,6 @@ import {
   SiReact,
   SiTypescript,
   SiJavascript,
-  SiHtml5,
-  SiCss,
   SiVuedotjs,
   SiNextdotjs,
   SiMysql,
