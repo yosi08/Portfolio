@@ -91,6 +91,18 @@ const Projects = () => {
                         </li>
                       ))}
                     </ul>
+                    {project.images && project.images.length > 0 && (
+                      <div className="flex gap-3 mb-5 overflow-x-auto">
+                        {project.images.map((src, i) => (
+                          <img
+                            key={i}
+                            src={`${import.meta.env.BASE_URL}${src.replace(/^\//, '')}`}
+                            alt={`${project.title} 스크린샷 ${i + 1}`}
+                            className="h-48 rounded-lg border border-slate-200 object-cover shrink-0"
+                          />
+                        ))}
+                      </div>
+                    )}
                     <div className="flex gap-3">
                       {project.githubUrl && (
                         <a

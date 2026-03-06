@@ -26,6 +26,7 @@ export const projects = [
     techStack: ['React', 'JavaScript', 'CSS'],
     githubUrl: 'https://github.com/yosi08/music-project',
     liveUrl: 'https://muzic-lake.vercel.app',
+    images: ['/music1.png', '/music2.png'],
   },
   {
     id: 2,
@@ -42,6 +43,7 @@ export const projects = [
     },
     techStack: ['HTML', 'JavaScript', 'CSS'],
     githubUrl: 'https://github.com/yosi08/pokemon',
+    images: ['/pokemon1.png', '/pokemon2.png', '/pokemon3.png'],
   },
   {
     id: 3,
@@ -60,6 +62,7 @@ export const projects = [
     techStack: ['JavaScript', 'CSS', 'React'],
     githubUrl: 'https://github.com/yosi08/Lilim',
     liveUrl: 'https://lilim-snowy.vercel.app',
+    images: ['/Lilim1.png', '/Lilim2.png', '/Lilim3.png'],
   },
   {
     id: 4,
@@ -78,5 +81,6 @@ export const projects = [
     techStack: ['React', 'TypeScript', 'Next.js', 'Tailwind CSS'],
     githubUrl: 'https://github.com/yosi08/A_presonal_project/tree/main/study-sphere',
     liveUrl: 'https://study-sphere-ten-ruby.vercel.app/',
+    images: ['/study-sphere1.png', '/study-sphere2.png', '/study-sphere3.png', '/study-sphere4.png', '/study-sphere5.png'],
   },
 ]

@@ -6,6 +6,7 @@ export interface Project {
   githubUrl?: string
   liveUrl?: string
   imageUrl?: string
+  images?: string[]
 }
 
 export interface Skill {
