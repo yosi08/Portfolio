@@ -24,13 +24,12 @@ const Contact = () => {
             <GitHubIcon />
             GitHub
           </a>
-          {/* 이메일 추가 시 아래 주석 해제 후 이메일 입력 */}
-          {/* <a
-            href="mailto:your@email.com"
+          {<a
+            href="mailto:stress0803@gmail.com"
             className="flex items-center gap-2 px-6 py-3 border border-slate-300 text-slate-700 font-medium rounded-lg hover:border-indigo-600 hover:text-indigo-600 transition-colors"
           >
             이메일 보내기
-          </a> */}
+          </a>}
         </div>
       </div>
     </section>
