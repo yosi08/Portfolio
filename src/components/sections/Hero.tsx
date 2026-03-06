@@ -14,8 +14,7 @@ const Hero = () => {
         <p className="text-2xl md:text-3xl font-semibold text-indigo-600 mb-6">
           프론트엔드 개발자
         </p>
-        {/* ✏️ 한 줄 소개 수정 가능 */}
-        <p className="text-slate-500 text-lg max-w-sm mx-auto mb-10 leading-relaxed">
+        <p className="text-slate-500 text-lg max-w-md mx-auto mb-10 leading-relaxed">
           사용자 경험을 고민하며 꾸준히 성장하는 개발자입니다.
         </p>
         <div className="flex items-center justify-center gap-4 flex-wrap">

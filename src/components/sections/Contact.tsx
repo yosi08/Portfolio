@@ -11,7 +11,6 @@ const Contact = () => {
         <h2 className="text-3xl font-bold text-slate-900 mb-4">
           Contact <span className="text-indigo-600">Me</span>
         </h2>
-        {/* ✏️ 소개 문구 수정 가능 */}
         <p className="text-slate-500 text-lg mb-10 max-w-sm mx-auto">
           새로운 기회나 협업 제안은 언제든지 환영합니다.
         </p>
@@ -25,7 +24,7 @@ const Contact = () => {
             <GitHubIcon />
             GitHub
           </a>
-          {/* ✏️ 이메일 추가 시 아래 주석 해제 후 이메일 입력 */}
+          {/* 이메일 추가 시 아래 주석 해제 후 이메일 입력 */}
           {/* <a
             href="mailto:your@email.com"
             className="flex items-center gap-2 px-6 py-3 border border-slate-300 text-slate-700 font-medium rounded-lg hover:border-indigo-600 hover:text-indigo-600 transition-colors"

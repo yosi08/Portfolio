@@ -6,7 +6,6 @@ const About = () => {
           About <span className="text-indigo-600">Me</span>
         </h2>
         <div className="max-w-2xl mx-auto space-y-5">
-          {/* 아래 자유롭게 수정 */}
           <p className="text-slate-600 text-lg leading-relaxed">
             안녕하세요! 저는 사용자 경험을 중심에 두고 개발하는 프론트엔드 개발자 권기범입니다.
           </p>
