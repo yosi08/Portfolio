@@ -26,8 +26,6 @@ export const skills: Skill[] = [
   { name: 'React',       category: 'frontend', icon: SiReact,      color: '#61DAFB' },
   { name: 'TypeScript',  category: 'frontend', icon: SiTypescript,  color: '#3178C6' },
   { name: 'JavaScript',  category: 'frontend', icon: SiJavascript,  color: '#F7DF1E' },
-  { name: 'HTML',        category: 'frontend', icon: SiHtml5,       color: '#E34F26' },
-  { name: 'CSS',         category: 'frontend', icon: SiCss,        color: '#1572B6' },
   { name: 'Vue.js',      category: 'frontend', icon: SiVuedotjs,    color: '#4FC08D' },
   { name: 'Next.js',     category: 'frontend', icon: SiNextdotjs,   color: '#000000' },
   // Backend / Language
