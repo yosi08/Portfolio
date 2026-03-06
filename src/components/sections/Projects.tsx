@@ -34,7 +34,7 @@ const Projects = () => {
         <h2 className="text-3xl font-bold text-slate-900 mb-12 text-center">
           프로<span className="text-indigo-600">젝트</span>
         </h2>
-        <div className="grid md:grid-cols-2 gap-6 items-start">
+        <div className="flex flex-col gap-6">
           {projects.map((project) => {
             const isOpen = openId === project.id
             return (
