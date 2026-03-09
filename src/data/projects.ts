@@ -84,3 +84,6 @@ export const projects = [
     images: ['/study-sphere1.png', '/study-sphere2.png', '/study-sphere3.png', '/study-sphere4.png', '/study-sphere5.png'],
   },
 ]
+
+
+// 어려움을 어떻게 극복하였는지와 프로젝트 설명을 좀 더 자세히 적기
