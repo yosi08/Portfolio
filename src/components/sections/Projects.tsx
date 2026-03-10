@@ -57,7 +57,7 @@ const Projects = () => {
                       {project.title}
                     </h3>
                     <p className="text-slate-500 text-sm leading-relaxed">
-                      {project.description}
+                      {project.details.longDescription}
                     </p>
                   </div>
                   <span className={`mt-1 shrink-0 transition-colors ${isOpen ? 'text-indigo-500' : 'text-slate-400'}`}>
@@ -81,7 +81,7 @@ const Projects = () => {
                 {isOpen && (
                   <div className="absolute -left-px -right-px top-full z-10 bg-white border border-indigo-300 border-t-0 rounded-b-xl shadow-lg px-6 pb-6 pt-4">
                     <p className="text-slate-600 text-sm leading-relaxed mb-4">
-                      {project.details.longDescription}
+                      {project.description}
                     </p>
                     <ul className="space-y-1.5 mb-5">
                       {project.details.record.map((record) => (
