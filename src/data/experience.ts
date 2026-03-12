@@ -19,6 +19,7 @@ export const experiences: Experience[] = [
     details: [
       'React / TypeScript 기반 웹 애플리케이션 개발',
       '컴포넌트 설계 및 공통 UI 라이브러리 구축',
+      '팀원들과 협업하여 프로젝트 완성',
       ],
   },
   {
@@ -31,6 +32,7 @@ export const experiences: Experience[] = [
     details: [
       'Occount 디자인 시스템 설계',
       '메인 페이지 제작',
+      'Next.js를 배울 수 있는 기회를 얻음',
     ],
   },
   {
@@ -43,6 +45,7 @@ export const experiences: Experience[] = [
     details: [
       '구글폼을 통한 데이터 수집 및 분석',
       '포스터 디자인',
+      '데이터 시각화 도구 활용',
     ],
   },
   {
@@ -55,6 +58,7 @@ export const experiences: Experience[] = [
     details: [
       '넥슨 게임 IP를 활용한 프로그래밍 문제 해결',
       '창의적이고 재미있는 솔루션 개발',
+      '알고리즘 문제 풀이 능력 향상',
     ],
   },
   {
