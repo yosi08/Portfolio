@@ -20,7 +20,7 @@ interface Skill {
 
 export const skills: Skill[] = [
   // Frontend
-  { name: 'React',       category: 'frontend', icon: SiReact,      color: '#61DAFB' },
+  { name: 'React Native',       category: 'frontend', icon: SiReact,      color: '#61DAFB' },
   { name: 'TypeScript',  category: 'frontend', icon: SiTypescript,  color: '#3178C6' },
   { name: 'Vue.js',      category: 'frontend', icon: SiVuedotjs,    color: '#4FC08D' },
   { name: 'Next.js',     category: 'frontend', icon: SiNextdotjs,   color: '#000000' },
