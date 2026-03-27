@@ -77,3 +77,4 @@ export const projects = [
 
 
 // 어려움을 어떻게 극복하였는지와 프로젝트 설명을 좀 더 자세히 적기
+// fdfdddffdfdf
