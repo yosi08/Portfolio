@@ -74,3 +74,5 @@ export const projects = [
     images: ['/study-sphere1.png', '/study-sphere2.png', '/study-sphere3.png', '/study-sphere4.png', '/study-sphere5.png'],
   },
 ]
+// ddddddd
+// 포폴 수정 못 하겠어 살려줘
