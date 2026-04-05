@@ -76,3 +76,4 @@ export const projects = [
 ]
 // ddddddd
 // 포폴 수정 못 하겠어 살려줘
+// 포폴에 어떤 내용을 수젇해야 할까? 
